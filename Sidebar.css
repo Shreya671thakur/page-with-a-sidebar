@@ -1,0 +1,37 @@
+
+/* Set default font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Sidebar container */
+.sidebar {
+    border: 1px solid #dadada;
+    border-left: none;
+    border-radius: 0 1rem 1rem 0;
+    width: 10rem;
+    height: 80vh;
+    margin: 1rem;
+    padding: 2rem 0;
+}
+
+/* Sidebar heading */
+#sb-heading {
+    color: blueviolet;
+    padding: 0 0.5rem;
+    font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Sidebar items */
+.sb-item {
+    padding: 0.5rem;
+    margin-bottom: 0.25rem; /* 4px / 16px = 0.25rem */
+    cursor: pointer;
+}
+
+.sb-item:hover {
+    font-weight: 600;
+    background-color: #f0f0f0;
+}
